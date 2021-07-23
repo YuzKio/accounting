@@ -9,7 +9,7 @@
       <div class="navbar-item-desc">首页</div>
     </div>
     <div class="navbar-item">
-      <div class="iconfont navbar-item-content">
+      <div class="navbar-item-content">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-chaxun"></use>
         </svg>
@@ -17,7 +17,7 @@
       <div class="navbar-item-desc">统计</div>
     </div>
     <div class="navbar-item">
-      <div class="iconfont navbar-item-content">
+      <div class="navbar-item-content">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-wode"></use>
         </svg>
@@ -34,23 +34,20 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
-.navbar
-  position: fixed
-  left: 0
-  bottom: 0
-  width: 100%
-  height: 10%
-  box-shadow: 0 0 5px #b6b4b4
-  .navbar-item
-    overflow: hidden
-    float: left
-    width: 33.3%
-    padding-bottom: .8rem
-    .navbar-item-content
+  .navbar
+    display: flex
+    position: fixed
+    width: 100%
+    left: 0
+    bottom: 0
+    box-shadow: 0 0 5px #b6b4b4
+    .navbar-item
+      flex: 1
+      box-sizing: border-box
+      padding: .1rem
       text-align: center
-      font-size: 2rem
-    .navbar-item-desc
-      text-align: center
-      font-size: .6rem
-      color: #7f7e7e
+      .navbar-item-content
+        font-size: .6rem
+      .navbar-item-desc
+        color: #5f5f5f
 </style>
