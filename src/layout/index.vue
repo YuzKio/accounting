@@ -1,6 +1,6 @@
 <template>
   <div>
-    <app-main />
+    <app-main class="app-main"/>
     <navbar />
   </div>
 </template>
@@ -14,6 +14,5 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="stylus" scoped>
 </style>

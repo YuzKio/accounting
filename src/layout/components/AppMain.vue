@@ -15,6 +15,10 @@ export default {
 }
 </script>
 
-<style scoped>
-
+<style lang="stylus" scoped>
+  .app-main
+    min-height: calc(100vh - 1.2rem)
+    width: 100%
+    position: relative
+    overflow: hidden
 </style>
