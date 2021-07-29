@@ -14,6 +14,13 @@ export default new Router({
         path: 'index',
         component: () => import('@/views/Home/index')
       }]
+    }, {
+      path: '/summary',
+      component: Layout,
+      children: [{
+        path: '',
+        component: () => import('@/views/Summary/index')
+      }]
     }
   ]
 })

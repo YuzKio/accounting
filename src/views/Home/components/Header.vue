@@ -14,18 +14,13 @@ export default {
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
   .header-wrapper
-    z-index: 10
     position:fixed
     overflow: hidden
     width: 100%
     height: 1.2rem
     line-height: 1.2rem
     padding: 0 .14rem
-    background: $bgColor
     .header-left
       float: left
       font-size: .58rem
-    //.header-right
-    //  float: right
-    //  font-size: .44rem
 </style>

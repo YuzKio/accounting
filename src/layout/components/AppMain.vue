@@ -16,9 +16,12 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+  @import '~styles/varibles.styl'
   .app-main
-    min-height: calc(100vh - 1.2rem)
-    width: 100%
+    z-index: 1
     position: relative
     overflow: hidden
+    min-height: calc(100vh - 1.2rem)
+    width: 100%
+    background: $bgColor
 </style>

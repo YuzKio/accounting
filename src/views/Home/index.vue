@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <home-header></home-header>
     <home-bill></home-bill>
   </div>
@@ -13,12 +13,3 @@ export default {
   components: {HomeBill, HomeHeader}
 }
 </script>
-
-<style lang="stylus" scoped>
-@import '~styles/varibles.styl'
-.container
-  position: absolute
-  width: 100%
-  height: 100%
-  background: $bgColor
-</style>

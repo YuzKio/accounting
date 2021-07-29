@@ -1,21 +1,21 @@
 <template>
   <div class="navbar">
-    <div class="navbar-item">
+    <router-link class="navbar-item" to="./">
       <div class="navbar-item-content">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-qianbao"></use>
         </svg>
       </div>
       <div class="navbar-item-desc">首页</div>
-    </div>
-    <div class="navbar-item">
+    </router-link>
+    <router-link class="navbar-item" to="./summary">
       <div class="navbar-item-content">
         <svg class="icon" aria-hidden="true">
           <use xlink:href="#icon-chaxun"></use>
         </svg>
       </div>
       <div class="navbar-item-desc">统计</div>
-    </div>
+    </router-link>
     <div class="navbar-item">
       <div class="navbar-item-content">
         <svg class="icon" aria-hidden="true">
