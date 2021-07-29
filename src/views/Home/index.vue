@@ -9,7 +9,7 @@
 import HomeHeader from './components/Header'
 import HomeBill from './components/Bill'
 export default {
-  name: 'index',
+  name: 'Home',
   components: {HomeBill, HomeHeader}
 }
 </script>
